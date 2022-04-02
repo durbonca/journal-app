@@ -1,4 +1,4 @@
-import React from 'react';
+import { NothingSelected } from './NothingSelected'
 import { Sidebar } from './Sidebar';
 
 export const JournalScreen = () => {
@@ -6,7 +6,7 @@ export const JournalScreen = () => {
     <div className='journal__main-content'>
       <Sidebar />
       <main>
-        <h1>main content</h1>
+        <NothingSelected />
       </main>
     </div>
   )
