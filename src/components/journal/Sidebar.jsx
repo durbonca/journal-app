@@ -1,4 +1,4 @@
-import React from 'react'
+import {JournalEntries} from './JournalEntries';
 
 export const Sidebar = () => {
   return (
@@ -17,7 +17,7 @@ export const Sidebar = () => {
             <p className='mt-5'>new entry</p>
         </div>
 
-        
+        <JournalEntries />
     </aside>
   )
 }
