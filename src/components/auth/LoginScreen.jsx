@@ -10,7 +10,7 @@ export const LoginScreen = () => {
   const dispatch = useDispatch();
   const { msgError, loading } = useSelector(state => state.ui);
 
-  const [ values, handleInputChange, reset ] = useForm({
+  const [ values, handleInputChange ] = useForm({
     email: 'test@tset.cl',
     password: '123456',
   });
